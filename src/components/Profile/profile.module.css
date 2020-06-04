@@ -1,86 +1,84 @@
-* {
+html {
+	box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+	box-sizing: inherit;
 	margin: 0;
 	padding: 0;
-}
-
-.container {
-  max-width: 428px;
-  height: 480px;
-  background-color: #e7ecf2;
-  margin: 0 auto;
-  padding-top: 90px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
+  }
 
 .profile {
-	max-width: 250px;
-  height: 330px;
-  margin: 0 auto;
-  background-color: #fff;
-  border: solid 1px #d8e0ea;
-  border-radius: 5px;
+	width: 250px;
+	text-align: center;
+	margin: auto;
+	border: solid 1px #d8e0ea;
 }
 
 .description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 30px;
+	width: 250px;
+	height: auto;
 }
 
 .avatar {
-  border-radius: 50%;
-  margin-bottom: 30px;
+	width: 128px;
+	height: 128px;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	margin: auto;
 }
 
 .name {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 32px;
+	font-size: 18px;
+	color: #333333;
+	font-weight: 700;
+	margin-top: 30px;
 }
 
 .tag {
-  font-size: 14px;
-  color: #97a2ae;
-  line-height: 32px;
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+	margin-top: 10px;
 }
 
 .location {
-  font-size: 14px;
-  color: #97a2ae;
-  line-height: 32px;
-  margin-bottom: 30px;
+	font-size: 14px;
+	color: #97a2ae;
+	line-height: 32px;
+	margin-top: 10px;
+	margin-bottom: 30px;
 }
 
 .stats {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  background-color: #f3f6f9;
-  border-radius: 0 0 5px 5px;
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+	background-color: #f3f6f9;
+	border-radius: 0 0 5px 5px;
 }
 
 .list {
- 
-  flex-direction: column;
-  align-items: center;
-  border: solid 1px #d8e0ea;
-  width: 85px;
+	flex-direction: column;
+	align-items: center;
+	border: solid 1px #d8e0ea;
+	width: 85px;
 }
 
 .label {
-  color: #97a2ae;
-  padding-top: 22px;
-  font-size: 12px;
-  display: flex;
-  
+	color: #97a2ae;
+	padding-top: 22px;
+	font-size: 12px;
+	display: flex;
 }
 
 .quantity {
-  padding-bottom: 22px;
-  line-height: 1.2;
-  font-weight: bold;
-  font-size: 14px;
-  display: flex;
+	padding-bottom: 22px;
+	line-height: 1.2;
+	font-weight: bold;
+	font-size: 14px;
+	display: flex;
 }
